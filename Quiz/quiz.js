@@ -1,23 +1,28 @@
 const questions = [
     {
-        q: "HTML stands for?",
+        q: "From which hindu scripture does, Satyamev Jayta, originated?",
         options: [
-            "Hyper Text Markup Language",
-            "High Text Machine Language",
-            "Hyperlinks Text ML",
-            "none of the above"
+            "Bhagavad Gita",
+            "Ramayana",
+            "Mundaka Upnishada",
+            "Mahabharata"
         ],
+        answer: 2
+    },
+    {
+        q: "The first month of National Panchang?",
+        options: ["Chaitra", "Magh", "Kartika","phalgun"],
         answer: 0
     },
     {
-        q: "CSS is used for?",
-        options: ["Logic", "Styling", "Database","Debugging"],
+        q: "Which is the national anthem of india?",
+        options: ["Vande matram", "Jana Gana Mana", "Sare jahan se achha","Mile sur mera tumhara"],
         answer: 1
     },
     {
-        q: "JavaScript is a?",
-        options: ["Programming Language", "Framework", "Database","Device"],
-        answer: 0
+        q:"Which vegetable is designated as the national vegetable of india?",
+        options:["potato","Pumpkin","Tomato","onion"],
+        answer: 1
     }
 ];
 
@@ -127,3 +132,4 @@ function restartQuiz() {
 }
 
 loadQuestion();
+
